@@ -164,3 +164,5 @@ variant passenger description {Phusion Passenger (http://www.modrails.com)} {
       md5 a5632323a573a039ea889c93396ad986
     configure.args-append --add-module=${workpath}/passenger-${passenger_version}/ext/nginx
 }
+
+default_variants +passenger
